@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "donottiltthecamerainrelationtodamagedirection",
+  "version": "${version}",
+  "name": "DoNotTiltTheCameraInRelationToDamageDirection",
+  "description": "do not tilt the camera in relation to damage direction",
+  "authors": [
+    "kate"
+  ],
+  "contact": {
+    "repo": "https://github.com/katie/DoNotTiltTheCameraInRelationToDamageDirection"
+  },
+  "license": "MIT",
+  "icon": "assets/DoNotTiltTheCameraInRelationToDamageDirection/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "rocks.katiekatiekatie.donottiltthecamerainrelationtodamagedirection.DoNotTiltTheCameraInRelationToDamageDirection"
+    ]
+  },
+  "mixins": [
+    "DoNotTiltTheCameraInRelationToDamageDirection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "minecraft": ">=1.19.4"
+  }
+}
