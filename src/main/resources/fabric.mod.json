@@ -12,11 +12,6 @@
   },
   "license": "MIT",
   "environment": "client",
-  "entrypoints": {
-    "client": [
-      "cc.unilock.notilt.NoTilt"
-    ]
-  },
   "mixins": [
     "notilt.mixins.json"
   ],
