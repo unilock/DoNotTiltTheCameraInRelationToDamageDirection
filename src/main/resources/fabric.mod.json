@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "donottiltthecamerainrelationtodamagedirection",
+  "id": "notilt",
   "version": "${version}",
   "name": "Do Not Tilt The Camera In Relation To Damage Direction",
   "description": "Don't tilt the camera in the direction of damage in >=1.19.4",
   "authors": [
-    "kate"
+    "unilock"
   ],
   "contact": {
-    "repo": "https://github.com/katie/DoNotTiltTheCameraInRelationToDamageDirection"
+    "sources": "https://github.com/unilock/DoNotTiltTheCameraInRelationToDamageDirection"
   },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "rocks.katiekatiekatie.donottiltthecamerainrelationtodamagedirection.DoNotTiltTheCameraInRelationToDamageDirection"
+      "cc.unilock.notilt.NoTilt"
     ]
   },
   "mixins": [
-    "DoNotTiltTheCameraInRelationToDamageDirection.mixins.json"
+    "notilt.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.18",
+    "fabricloader": "*",
     "minecraft": ">=1.19.4"
   }
 }

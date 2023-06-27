@@ -1,4 +1,4 @@
-package rocks.katiekatiekatie.donottiltthecamerainrelationtodamagedirection.mixin;
+package cc.unilock.notilt.mixin;
 
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.entity.LivingEntity;
