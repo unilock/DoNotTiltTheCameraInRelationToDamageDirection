@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(GameRenderer.class)
 public class GameRendererMixin {
     @Redirect(method = "tiltViewWhenHurt(Lnet/minecraft/client/util/math/MatrixStack;F)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;getDamageTiltYaw()F"))
-    private float redirect(LivingEntity instance) {
+    private float notilt$getDamageTiltYaw(LivingEntity instance) {
         return 0;
     }
 }
